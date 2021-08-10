@@ -2,7 +2,7 @@
 
 <div class='container'>
   <% @articles.each do |article| %>
-    <div class='article my-3 p-3 table-primary'><%= link_to article.title, article_path(article)%></div>
+    <div id='article'class='my-3 p-3 table-primary'><%= link_to article.title, article_path(article)%></div>
   <% end %>
 </div>
 

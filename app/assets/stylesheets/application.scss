@@ -1,1 +1,14 @@
 @import "bootstrap/scss/bootstrap";
+
+h1 {
+  text-align: center;
+  border: 1px solid gray;
+  padding: 20px;
+  box-shadow: 2, 2, 2, 2, black;
+}
+
+#article {
+  width: 40vh;
+  margin: 0, auto, 0, auto;
+  text-align: center;
+}
