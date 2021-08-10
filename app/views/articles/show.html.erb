@@ -4,9 +4,10 @@
 <%= @article.content%>
 </p>
 
-
-<%= link_to "Back", articles_path %>
+<div class='p-3'>
+<%= link_to "🔙", articles_path %>
 
 <%= link_to "✏️", edit_article_path(@article)%>
 
-<%= link_to "Destroy", article_path(@article), method: :delete, data: { confirm: "Are you sure?" } %>
+<%= link_to "🗑️", article_path(@article), method: :delete, data: { confirm: "Are you sure?" } %>
+</div>

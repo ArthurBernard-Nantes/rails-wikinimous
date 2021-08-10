@@ -1,9 +1,9 @@
 <h1>Wikinimous</h1>
 
-<ul>
+<div class='container'>
   <% @articles.each do |article| %>
-    <li><%= link_to article.title, article_path(article)%></li>
+    <div class='article my-3 p-3 table-primary'><%= link_to article.title, article_path(article)%></div>
   <% end %>
-</ul>
+</div>
 
-<%= link_to "Create a article", new_article_path %>
+<%= link_to "Create a article", new_article_path%>
